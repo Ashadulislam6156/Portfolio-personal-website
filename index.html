@@ -22,11 +22,11 @@
 </head>
 <body> 
 
-    <header>
-        <nav class="navBar flex-space-around">
+   <header>
+        <nav class="navBar flex-space-around navbar-mobile">
               
                 <div class="navBar-tittle col-4">
-                    <h2><a href="#"><i class="fa-brands fa-servicestack icon-left"></i><span>Ashadul islam</span> <i class="fa-brands fa-servicestack icon-right"></i></a></h2>
+                    <h2><a href="#"><i class="fa-brands fa-servicestack icon-left"></i><span id="navbar-name-h2">Ashadul islam</span> <i class="fa-brands fa-servicestack icon-right"></i></a></h2>
                 </div>
                
             <div class="navBar-right col-8 ">
@@ -35,12 +35,12 @@
                   <!-- responsive-for-mobile-design  start-->
 
                     <input type="checkbox" id="checkbox">
-                    <label for="checkbox" class="click-button">
+                    <label for="checkbox" class="click-button click-button-mobile">
                         <i class="fas fa-bars"></i>
                     </label>
                <!-- responsive-for-mobile-design  end-->
                
-                <ul class="navBar-ul flex-space-around">
+                <ul class="navBar-ul flex-space-around navBar-ul-mobile">
                     <li class="navBar-li active-bg"><a href="./index.html" class="navBar-link link-home active-color" target="_blank">Home</a></li> 
                     <li class="navBar-li"><a href="./About.html" class="navBar-link link-about" target="_blank">About</a></li> 
                     <li class="navBar-li"><a href="./Services.html" class="navBar-link link-services" target="_blank">Services</a></li> 
@@ -60,24 +60,23 @@
 
      <!-- Banner Section design start -->
 
-    <div class="heru-banner">
+    <div class="heru-banner" id="heru-banner-mobile">
         <div class="banner-left col-6">
             <div class="div-img-border">
                 <img class="banner-left-img1" src="./images/bg-my-img.png" alt="This is my image">
             </div>
             
         </div>
-        <div class="banner-right col-6">
-            <b>This is me</b>
-            <h1>Ashadul Islam</h1>
-            <p>I am studies at Northern University Bangladesh.
+        <div class="banner-right col-6 banner-right-mobile">
+            <b id="banner-b-right">This is me</b>
+            <h1 id="banner-h1-right">Ashadul Islam</h1>
+            <p id="banner-p-right">I am studies at Northern University Bangladesh.
                 I am a programmer(want to be a Web developer) from Bangladesh. </p>
-                <button class="banner-right-button">Follow Me</button>
+                <button class="banner-right-button button-mobile-banner">Follow Me</button>
         </div>
       
     </div>
 
-    <!-- Banner Section design end -->
 
 
     <!-- About Section design start -->
