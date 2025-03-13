@@ -60,6 +60,72 @@
     color: white;
 }
 
+@media (max-width:412px){
+
+    header .navbar-mobile{
+        height: 65px;
+    }
+    .navBar-right .click-button-mobile{
+        margin-top: -4px;
+        font-size: 23px;
+        padding-left: 194px;
+    }
+
+    #navbar-name-h2{
+        font-size: 15px;
+    }
+
+   .navBar-right .navBar-ul-mobile{
+        width: 100%;
+        margin-top: -25px;
+        z-index: 1;
+    }
+    .navBar-li .navBar-link{
+        font-size: 13px;
+
+    }
+
+/* about sectioin start */
+
+    .heru-banner .banner-right-mobile #banner-h1-right {
+        font-size: 13px;
+        padding-top: 6px;
+        padding-bottom: 5px;
+    }
+
+    .banner-right #banner-b-right{
+        font-size: 12px;
+    }
+
+    .banner-right #banner-p-right{
+        font-size: 11px;
+        line-height: 19px;
+    }
+
+    .heru-banner .banner-right-mobile .button-mobile-banner{
+        margin-top: 5px;
+        padding: 5px 8px;
+        font-size: 8px;
+    }
+
+    .heru-banner .div-img-border .banner-left-img1{
+        width: 64%;
+        top: 7px;
+    }
+
+    #heru-banner-mobile{
+        padding-top: 80px;
+        padding-bottom: 0px;
+        height: 400px;
+    }
+
+/* about design start */
+
+    
+
+}
+
+
 @media (max-width:600px){
 
     .click-button{
