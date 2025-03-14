@@ -68,11 +68,11 @@
     .navBar-right .click-button-mobile{
         margin-top: -4px;
         font-size: 23px;
-        padding-left: 194px;
+        padding-left: 191px;
     }
 
     #navbar-name-h2{
-        font-size: 15px;
+        font-size: 16px;
     }
 
    .navBar-right .navBar-ul-mobile{
@@ -80,51 +80,397 @@
         margin-top: -25px;
         z-index: 1;
     }
+    .navBar-right .navBar-ul-mobile .navBar-li{
+        height: 43px;
+    }
     .navBar-li .navBar-link{
         font-size: 13px;
 
     }
 
-/* about sectioin start */
+/* banner sectioin start */
 
     .heru-banner .banner-right-mobile #banner-h1-right {
-        font-size: 13px;
+        font-size: 15px;
         padding-top: 6px;
         padding-bottom: 5px;
     }
 
     .banner-right #banner-b-right{
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .banner-right #banner-p-right{
-        font-size: 11px;
-        line-height: 19px;
+        font-size: 13px;
+        line-height: 22px;
     }
 
     .heru-banner .banner-right-mobile .button-mobile-banner{
         margin-top: 5px;
-        padding: 5px 8px;
-        font-size: 8px;
+        padding: 7px 10px;
+        font-size: 9px;
     }
 
     .heru-banner .div-img-border .banner-left-img1{
-        width: 64%;
-        top: 7px;
+        width: 75%;
+        top: 10px;
+        margin-left: -40px;
     }
 
     #heru-banner-mobile{
         padding-top: 80px;
         padding-bottom: 0px;
-        height: 400px;
+        height: 450px;
     }
 
 /* about design start */
 
+    .about-me-sec-1-mobile #about-h1-mobile{
+        font-size: 18px;
+        padding-top: 47px;
+
+    }
+
+    #hr-about-mb{
+        width: 100%;
+    }
+
+    .other-section .nav-item-style{
+        padding: 0px;
+        margin-left: 30px;
+
+       
+    }
+
+    .other-section .nav-style .nav-link{
+        font-size: 10px;
+        font-weight: 600;
+        color: #143fea;
+    }
+
+    .tab-content .abt-style{
+        width: 65%;
+        margin-left: 40px;
+        height: auto;
+    }
+    .tab-content .abt-style p{
+        font-size: 11px;
+        line-height: 7px;
+        
+    }
+    .socile-link .linkedin,
+    .socile-link .fb-page,
+    .socile-link .github{
+        padding-right: 14px;
+        margin-left: -60px;
+    }
+    .socile-link .linkedin .fa-linkedin,
+    .socile-link .fb-page .fa-font-awesome,
+    .socile-link .github .fa-github,
+    .socile-link .youtub .fa-youtube,
+    .socile-link .CodeForce .fa-youtube,
+    .socile-link .leetcode .fa-youtube{
+        font-size: 16px;
+    }
+    .socile-link .linkedin .icon-name-social,
+    .socile-link .fb-page .icon-name-social,
+    .socile-link .github .icon-name-social,
+    .socile-link .youtub .icon-name-social,
+    .socile-link .CodeForce .icon-name-social,
+    .socile-link .leetcode .icon-name-social{
+        font-size: 12px;
+
+    }
+    .socile-link .CodeForce .icon-name-social,
+    .socile-link .leetcode .icon-name-social{
+        background-size: 25px;
+        
+
+    }
+    .tab-content .socile-link{
+        margin-left: 16px;
+        width: 90%;
+        margin-top: 20px;
+
+    }
+    .work-experience .work-experience-title{
+        height: 30px;
+    }
+    .work-experience .work-experience-title h2{
+        font-size: 10px;
+
+    }
+    .tab-content .education-tab-info-mobile{
+        margin-left: 40px;
+        height: 806px;
+
+    }
+    .education-tab-info-mobile .work-experience {
+        height: 751px;
+    }
+    .Skills-Inner-heru .Skills-Title h1 {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .Skills-Inner-heru .Skills-Title{
+        height: 30px;
+    }
+    .tab-content .Skills-section-heru{
+        height: 690px;
+        margin-left: 36px;
+    }
+    .Skills-section-heru .Skills-Inner-heru {
+        height: 653px;
+    }
+
+
+    /* services section start */
     
+    #heru-services-mobile{
+        height: 530px;
+    }
+
+    #heru-services-mobile .secvices-head h1{
+        font-size: 20px;
+
+    }
+    #heru-services-mobile .secvices-head p {
+        font-size: 11px;
+    }
+  #services-heru-card-mobile{
+        margin-top: -50px;
+    }
+    .card-row1 .card1 h1{
+        font-size: 22px;
+        padding: 0px;
+    }
+    .card-row1 .card1 p{
+        margin: 15px;
+        font-size: 12px;
+    }
+
+    /* counter section start */
+    #counter-id{
+        height: 180px;
+    }
+    #counter-id .counter-child-1 h2{
+        padding-left: 12px;
+    }
+
+    /* feture section start */
+
+
+    #feature-heru-mobile .feature-top{
+        padding-top: 30px;
+    }
+    #feature-heru-mobile .feature-top h2{
+        font-size: 15px;
+    }
+    #feature-heru-mobile .feature-top p{
+        line-height: 20px;
+        margin-bottom: -25px;
+    }
+    #feature-heru-mobile .feature-bottom {
+        margin-top: 43px;
+    }
+    #feature-heru-mobile .feature-bottom .feature-tabs-style {
+        padding-left: 25px;
+        font-size: 8px;
+        gap: 4px;
+        
+    }
+    .nav-item .nav-link{
+        color: #143fea;
+        font-weight: 600;
+    }
+
+
+    #item-1-img-mobile .overlay-style {
+        width: 20%;
+        height: 14%;
+        margin-top: -78px;
+        margin-left: 10px;
+    }
+
+    #item-1-img-mobile .overlay-style img {
+        height: 20%;
+        width: 27%;
+        margin-top: -246px;
+        margin-left: 0px;
+    }
+
+    #item-1-img-mobile .overlay-style-vector, 
+    .item-1-img .overlay-style-vector {
+        width: 26%;
+        height: 18%;
+        margin-top: -101px;
+        margin-left: 13px;
+    }
+    #item-1-img-mobile .overlay-style-vector img, 
+    .item-1-img .overlay-style-vector img {
+        height: 16%;
+        width: 27%;
+        margin-top: -214px;
+        margin-left: 0px;
+    }
+
+    #rester{
+        margin-top: -394px;
+        clear: both;
+    }
+
+    .rester-div #item-1-img-mobile .overlay-style-reset, .rester-div #item-1-img-mobile .overlay-style-reset {
+        width: 30%;
+        height: 21%;
+        margin-top: -116px;
+        margin-left: 24px;
+    }
+    .rester-div #item-1-img-mobile .overlay-style-reset img, .rester-div #item-1-img-mobile .overlay-style-reset img  {
+        margin-top: -205px;
+       
+
+    }
+
+    #ui-ux{
+        margin-top: -187px;
+        clear: both;
+        margin-left: 50px;
+    }
+    .ui-temp .all-item-3-ui #item-1-img-mobile img{
+        margin-top: 0px;
+        border-radius: 15px;
+    }
+
+    .all-item-3-ui #item-1-img-mobile .overlay-style-ui-ux {
+        width: 33%;
+        height: 24%;
+        margin-top: -130px;
+        margin-left: 263px;
+    }
+    .ui-temp .all-item-3-ui #item-1-img-mobile .overlay-style-ui-ux img {
+        top: 54px;
+    }
+    #printing {
+        margin-left: 233px;
+        margin-top: -188px;
+
+    }
+
+
+    #item-1-img-mobile img {
+        margin-top: 0;
+    }
+
+    #item-1-img-mobile .overlay-style-printing {
+        width: 45%;
+        height: 33%;
+        margin-top: -177px;
+        margin-left: 408px;
+    }
+    #item-1-img-mobile .overlay-style-printing img{
+        margin-top: -151px;
+        margin-left: 0px;
+        
+    }
+   
+
+    #feature-heru-mobile{
+        display: table;
+        clear: both;
+        content: '';
+    }
+
+
+
+    /* testimonial Section start */
+
+    #testmonial-heru-mobile{
+        padding: 22px;
+    }
+
+    #testmonial-heru-mobile .testimonial-head h2{
+        font-size: 12px;
+    }
+    #testmonial-heru-mobile .testimonial-head p {
+        margin-bottom: -6px;
+        font-size: 10px;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next{
+        width: 1rem;
+    }
+   .carousel-item .testimonial-item-style .item-other h2 {
+        margin-top: -10px;
+    }
+
+    /* price section start */
+
+   #price-heru-mobile{
+    padding: 23px;
+
+    }
+    #price-heru-mobile .price-top {
+        margin-bottom: -30px;
+        padding: 0px 4px 0px 4px;
+    }
+    #price-heru-mobile .price-bottom .price-card1 {
+        margin-left: 60px;
+        width: 70%;
+
+    }
+    .price-bottom .price-card1 #button-mb {
+        margin-left: 30px;
+    }
+    #price-heru-mobile .price-bottom{
+        padding-bottom: 2497px;
+    }
+
+    /* blog design start */
+
+    #blog-post-heru-mobile{
+        padding: 20px auto 20px auto;
+        
+    }
+    #blog-post-heru-mobile .blog-post-top {
+        padding-top: 20px;
+        padding-bottom: 0px;
+
+    }
+    #blog-post-heru-mobile .blog-post-top p{
+        font-size: 9px;
+        line-height: 1rem;
+        margin-top: -10px;
+
+    }
+    #blog-post-heru-mobile .blog-post-bottom .blog-card-1{
+        margin-left: 50px;
+    }
+    .blog-post-bottom .blog-card-1{
+        padding: 10px;
+        margin: 8px;
+    }
+    #blog-card-top-mobile .blog-card-top-others,
+    #blog-card-top-mobile .blog-card-top-others,
+    #blog-card-top-mobile .blog-card-top-others{
+        height: 31px;
+    }
+    .blog-left{
+        width: 60%;
+
+    }
+    #blog-card-top-mobile .blog-card-top-others .blog-img-bottom .blog-date ,
+    #blog-card-top-mobile .blog-card-top-others .blog-img-bottom .blog-date ,
+    #blog-card-top-mobile .blog-card-top-others .blog-img-bottom .blog-date {
+        font-size: 9px;
+    }
+    #blog-card-1-mobile .blog-card-bottom,
+    #blog-card-1-mobile .blog-card-bottom,
+    #blog-card-1-mobile .blog-card-bottom{
+        padding: 0px;
+    }
+
 
 }
-
 
 @media (max-width:600px){
 
